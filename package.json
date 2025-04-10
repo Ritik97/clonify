@@ -1,0 +1,32 @@
+{
+  "name": "deep-clone",
+  "version": "1.0.0",
+  "description": "A feature-rich, cyclic-safe deep clone utility for JavaScript. Handles POJOs, custom classes, Maps, Sets, Symbols, Dates, RegExps, and more — all with prototype preservation.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "deepclone",
+    "deep-clone",
+    "clone",
+    "deep",
+    "copy",
+    "cyclic",
+    "clone",
+    "javascript",
+    "utility",
+    "object",
+    "cloning",
+    "clone",
+    "object",
+    "data",
+    "structures"
+  ],
+  "author": "Ritik Raj",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
