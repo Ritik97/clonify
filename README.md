@@ -1,5 +1,5 @@
-![npm](https://img.shields.io/npm/v/clonify)
-![License](https://img.shields.io/npm/l/clonify)
+![npm](https://img.shields.io/npm/v/clonify?cacheSeconds=10)
+![License](https://img.shields.io/npm/l/clonify?cacheSeconds=10)
 
 
 # Clonify
