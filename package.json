@@ -1,5 +1,5 @@
 {
-  "name": "deep-clone",
+  "name": "clonify",
   "version": "1.0.0",
   "description": "A feature-rich, cyclic-safe deep clone utility for JavaScript. Handles POJOs, custom classes, Maps, Sets, Symbols, Dates, RegExps, and more — all with prototype preservation.",
   "main": "dist/index.js",
@@ -10,6 +10,7 @@
   "keywords": [
     "deepclone",
     "deep-clone",
+    "clonify",
     "clone",
     "deep",
     "copy",
@@ -24,8 +25,28 @@
     "data",
     "structures"
   ],
-  "author": "Ritik Raj",
+  "author": {
+    "name": "Ritik Raj",
+    "email": "ritiksinha91@gmail.com",
+    "url": "https://www.linkedin.com/in/ritik-raj-91661925a/"
+  },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ritik97/clonify.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ritik97/clonify/issues"
+  },
+  "homepage": "https://github.com/Ritik97/clonify#readme",
+  "exports": {
+  ".": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.js",
+    "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist"],
   "devDependencies": {
     "typescript": "^5.8.3"
   }
